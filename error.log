@@ -1,70 +1,24 @@
-ERROR:root:'list' object has no attribute 'find_elements'
-ERROR:root:'list' object has no attribute 'click'
-ERROR:root:'list' object has no attribute 'is_enabled'
-ERROR:root:'list' object has no attribute 'is_enabled'
-ERROR:root:'list' object has no attribute 'is_enabled'
-ERROR:root:'list' object has no attribute 'is_enabled'
-ERROR:root:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'gameTopBar_container__Ol3mh')][.//button[text()[contains(., 'Close')]]]"}
+ERROR:root:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'Login_switchButton__k+Xad')][.//button[text()[contains(., 'Child')]]]"}
   (Session info: chrome=114.0.5735.198); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Stacktrace:
-0   chromedriver                        0x0000000100b87f48 chromedriver + 4226888
-1   chromedriver                        0x0000000100b804f4 chromedriver + 4195572
-2   chromedriver                        0x00000001007c4d68 chromedriver + 281960
-3   chromedriver                        0x00000001007fffc8 chromedriver + 524232
-4   chromedriver                        0x0000000100836c58 chromedriver + 748632
-5   chromedriver                        0x00000001007f3f1c chromedriver + 474908
-6   chromedriver                        0x00000001007f4ef4 chromedriver + 478964
-7   chromedriver                        0x0000000100b4959c chromedriver + 3970460
-8   chromedriver                        0x0000000100b4d6f0 chromedriver + 3987184
-9   chromedriver                        0x0000000100b535b4 chromedriver + 4011444
-10  chromedriver                        0x0000000100b4e2fc chromedriver + 3990268
-11  chromedriver                        0x0000000100b261c0 chromedriver + 3826112
-12  chromedriver                        0x0000000100b6a088 chromedriver + 4104328
-13  chromedriver                        0x0000000100b6a1e0 chromedriver + 4104672
-14  chromedriver                        0x0000000100b79f28 chromedriver + 4169512
-15  libsystem_pthread.dylib             0x0000000192ce7fa8 _pthread_start + 148
-16  libsystem_pthread.dylib             0x0000000192ce2da0 thread_start + 8
+0   chromedriver                        0x00000001026aff48 chromedriver + 4226888
+1   chromedriver                        0x00000001026a84f4 chromedriver + 4195572
+2   chromedriver                        0x00000001022ecd68 chromedriver + 281960
+3   chromedriver                        0x0000000102327fc8 chromedriver + 524232
+4   chromedriver                        0x000000010235ec58 chromedriver + 748632
+5   chromedriver                        0x000000010231bf1c chromedriver + 474908
+6   chromedriver                        0x000000010231cef4 chromedriver + 478964
+7   chromedriver                        0x000000010267159c chromedriver + 3970460
+8   chromedriver                        0x00000001026756f0 chromedriver + 3987184
+9   chromedriver                        0x000000010267b5b4 chromedriver + 4011444
+10  chromedriver                        0x00000001026762fc chromedriver + 3990268
+11  chromedriver                        0x000000010264e1c0 chromedriver + 3826112
+12  chromedriver                        0x0000000102692088 chromedriver + 4104328
+13  chromedriver                        0x00000001026921e0 chromedriver + 4104672
+14  chromedriver                        0x00000001026a1f28 chromedriver + 4169512
+15  libsystem_pthread.dylib             0x00000001a1e03fa8 _pthread_start + 148
+16  libsystem_pthread.dylib             0x00000001a1dfeda0 thread_start + 8
 
-ERROR:root:'list' object has no attribute 'is_enabled'
-ERROR:root:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'gameTopBar_container__Ol3mh')][.//button[text()[contains(., 'Close')]]]"}
-  (Session info: chrome=114.0.5735.198); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x0000000105027f48 chromedriver + 4226888
-1   chromedriver                        0x00000001050204f4 chromedriver + 4195572
-2   chromedriver                        0x0000000104c64d68 chromedriver + 281960
-3   chromedriver                        0x0000000104c9ffc8 chromedriver + 524232
-4   chromedriver                        0x0000000104cd6c58 chromedriver + 748632
-5   chromedriver                        0x0000000104c93f1c chromedriver + 474908
-6   chromedriver                        0x0000000104c94ef4 chromedriver + 478964
-7   chromedriver                        0x0000000104fe959c chromedriver + 3970460
-8   chromedriver                        0x0000000104fed6f0 chromedriver + 3987184
-9   chromedriver                        0x0000000104ff35b4 chromedriver + 4011444
-10  chromedriver                        0x0000000104fee2fc chromedriver + 3990268
-11  chromedriver                        0x0000000104fc61c0 chromedriver + 3826112
-12  chromedriver                        0x000000010500a088 chromedriver + 4104328
-13  chromedriver                        0x000000010500a1e0 chromedriver + 4104672
-14  chromedriver                        0x0000000105019f28 chromedriver + 4169512
-15  libsystem_pthread.dylib             0x0000000192ce7fa8 _pthread_start + 148
-16  libsystem_pthread.dylib             0x0000000192ce2da0 thread_start + 8
-
-ERROR:root:Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class, 'gameTopBar_container__Ol3mh')][.//button[text()[contains(., 'Close')]]]"}
-  (Session info: chrome=114.0.5735.198); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Stacktrace:
-0   chromedriver                        0x00000001032ebf48 chromedriver + 4226888
-1   chromedriver                        0x00000001032e44f4 chromedriver + 4195572
-2   chromedriver                        0x0000000102f28d68 chromedriver + 281960
-3   chromedriver                        0x0000000102f63fc8 chromedriver + 524232
-4   chromedriver                        0x0000000102f9ac58 chromedriver + 748632
-5   chromedriver                        0x0000000102f57f1c chromedriver + 474908
-6   chromedriver                        0x0000000102f58ef4 chromedriver + 478964
-7   chromedriver                        0x00000001032ad59c chromedriver + 3970460
-8   chromedriver                        0x00000001032b16f0 chromedriver + 3987184
-9   chromedriver                        0x00000001032b75b4 chromedriver + 4011444
-10  chromedriver                        0x00000001032b22fc chromedriver + 3990268
-11  chromedriver                        0x000000010328a1c0 chromedriver + 3826112
-12  chromedriver                        0x00000001032ce088 chromedriver + 4104328
-13  chromedriver                        0x00000001032ce1e0 chromedriver + 4104672
-14  chromedriver                        0x00000001032ddf28 chromedriver + 4169512
-15  libsystem_pthread.dylib             0x0000000192ce7fa8 _pthread_start + 148
-16  libsystem_pthread.dylib             0x0000000192ce2da0 thread_start + 8
-
+ERROR:root:list index out of range
+ERROR:root:list index out of range
+ERROR:root:list index out of range
