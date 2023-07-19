@@ -1,4 +1,4 @@
-# Requirements: install python and use pip to install selenium
+# Requirements: install python and use "pip/pip3 install selenium", "pip/pip3 install webdriver_manager"
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
