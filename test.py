@@ -1,3 +1,4 @@
+# Requirements: install python and use pip to install selenium
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
