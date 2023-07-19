@@ -49,12 +49,12 @@ try:
         By.XPATH, "//input[contains(@class, 'Login_childOTP__3rkto')]")
 
     # send code 995007
-    inputField[0].send_keys("9")
+    inputField[0].send_keys("6")
     inputField[1].send_keys("9")
-    inputField[2].send_keys("5")
-    inputField[3].send_keys("0")
+    inputField[2].send_keys("4")
+    inputField[3].send_keys("6")
     inputField[4].send_keys("0")
-    inputField[5].send_keys("7")
+    inputField[5].send_keys("2")
 
     # Click on the login button
     buttonLinks = driver.find_element(

@@ -22,3 +22,26 @@ Stacktrace:
 ERROR:root:list index out of range
 ERROR:root:list index out of range
 ERROR:root:list index out of range
+ERROR:root:Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.198)
+Stacktrace:
+0   chromedriver                        0x00000001004d7f48 chromedriver + 4226888
+1   chromedriver                        0x00000001004d04f4 chromedriver + 4195572
+2   chromedriver                        0x0000000100114d68 chromedriver + 281960
+3   chromedriver                        0x00000001000eeef8 chromedriver + 126712
+4   chromedriver                        0x0000000100173e88 chromedriver + 671368
+5   chromedriver                        0x000000010018645c chromedriver + 746588
+6   chromedriver                        0x0000000100143f1c chromedriver + 474908
+7   chromedriver                        0x0000000100144ef4 chromedriver + 478964
+8   chromedriver                        0x000000010049959c chromedriver + 3970460
+9   chromedriver                        0x000000010049d6f0 chromedriver + 3987184
+10  chromedriver                        0x00000001004a35b4 chromedriver + 4011444
+11  chromedriver                        0x000000010049e2fc chromedriver + 3990268
+12  chromedriver                        0x00000001004761c0 chromedriver + 3826112
+13  chromedriver                        0x00000001004ba088 chromedriver + 4104328
+14  chromedriver                        0x00000001004ba1e0 chromedriver + 4104672
+15  chromedriver                        0x00000001004c9f28 chromedriver + 4169512
+16  libsystem_pthread.dylib             0x00000001a1e03fa8 _pthread_start + 148
+17  libsystem_pthread.dylib             0x00000001a1dfeda0 thread_start + 8
+
